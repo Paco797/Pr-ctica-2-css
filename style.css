@@ -1,8 +1,19 @@
 body{
     background-color: lightblue;
 }
-article{
+article.blanco{
     background-color: white;
+}
+article.fondo{
+    background-image: url(img/valencia_antigua.jpg);
+    background-position: left;
+    width: 890px;
+
+    color: blue;
+}
+h3.Fallas{
+    position: relative;
+    left: 250px;
 }
 header{
     text-align: center;
@@ -12,7 +23,16 @@ header{
 hr.hrheader{
     width: 50%;
 }
-p.imágenes{text-align: center;}
+hr.azul{
+    background-color: blue;
+    height: 20px;
+}
+p.imágenes{
+    text-align: center;
+}
+span.H:hover{
+    background-color: lightblue;
+}
 img{
     height: 150px;
     width: 200px;
@@ -20,4 +40,12 @@ img{
 }
 .transparente:hover{
     opacity: 0.5;
+}
+p.C{
+    text-align: center;
+}
+img.Valencia{
+    height: 300px;
+    width: 400px;
+    
 }
